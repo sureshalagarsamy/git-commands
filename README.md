@@ -1,5 +1,4 @@
-# git-commands
-###Basic commands
+### Basic commands
 * clear
 * git status
 * git add filename.js/css/html (stage specific file)
@@ -14,14 +13,14 @@
 * git branch -d PRU-123 (It will delete your local branch only. If there is a warning then use this git branch -D PRU-123)
 * git checkout -b PRU-123 (It creates a new branch from your remote. So please make sure that you are in right remote branch like 'master / develop')
 
-###Stash
+### Stash
 * git stash save "my_stash"
 * git stash list
 * git stash apply stash@{n}    //Apply stash and keep the file(s) in stash itself
 * git stash pop stash@{n}	//Apply stash and delete stash file(s) 
 
-###Track Remote branch
+### Track Remote branch
 * git branch --set-upstream-to=origin/develop <featurebranch>
 
-###Rename remote branch
+### Rename remote branch
 * git branch -m ABC-123 (ABC-123 is a new branch name.. Go to current branch and do this cmd)
